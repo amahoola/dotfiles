@@ -1,0 +1,114 @@
+{
+    "com.github.isacikgoz.ukill": {
+        "id": "com.github.isacikgoz.ukill",
+        "url": "https://github.com/isacikgoz/ukill",
+        "updated_at": "2019-09-24T11:35:28.638510",
+        "last_commit": "bc50d9f41d46b6813a5aeebddd15734dcdb9d8db",
+        "last_commit_time": "2019-05-28T18:30:00"
+    },
+    "com.github.ulauncher.ulauncher-emoji": {
+        "id": "com.github.ulauncher.ulauncher-emoji",
+        "url": "https://github.com/Ulauncher/ulauncher-emoji",
+        "updated_at": "2019-09-24T11:35:35.655424",
+        "last_commit": "4734455e255a401ff7507192386ed62361cb3748",
+        "last_commit_time": "2019-05-20T18:00:00"
+    },
+    "com.github.pywkm.ulauncher-spotify": {
+        "id": "com.github.pywkm.ulauncher-spotify",
+        "url": "https://github.com/pywkm/ulauncher-spotify",
+        "updated_at": "2019-09-24T11:35:37.772881",
+        "last_commit": "a620df994069c9bed572204afb1d5577d603e444",
+        "last_commit_time": "2019-06-20T22:27:44"
+    },
+    "com.github.jetbug123.ulauncher-ssh": {
+        "id": "com.github.jetbug123.ulauncher-ssh",
+        "url": "https://github.com/jetbug123/ulauncher-ssh",
+        "updated_at": "2019-09-24T11:35:39.254661",
+        "last_commit": "cc84e7f748c627e8e5a8530c8e989fe977f8e0d8",
+        "last_commit_time": "2019-09-02T16:14:45"
+    },
+    "com.github.brpaz.ulauncher-jetbrains": {
+        "id": "com.github.brpaz.ulauncher-jetbrains",
+        "url": "https://github.com/brpaz/ulauncher-jetbrains",
+        "updated_at": "2019-09-24T11:35:41.869270",
+        "last_commit": "36437d99c3afc7dd04691173dde1242407476d39",
+        "last_commit_time": "2019-06-22T13:24:47"
+    },
+    "com.github.brpaz.ulauncher-docker": {
+        "id": "com.github.brpaz.ulauncher-docker",
+        "url": "https://github.com/brpaz/ulauncher-docker",
+        "updated_at": "2019-09-24T11:35:44.444421",
+        "last_commit": "add2dcdec3c3288236485117a3c2d463a9a3a652",
+        "last_commit_time": "2019-06-22T13:50:35"
+    },
+    "com.github.brpaz.ulauncher-github": {
+        "id": "com.github.brpaz.ulauncher-github",
+        "url": "https://github.com/brpaz/ulauncher-github",
+        "updated_at": "2019-09-24T13:12:03.807090",
+        "last_commit": "19d6759b47f35e9c7a050bddc56c2cac5f590f50",
+        "last_commit_time": "2019-06-22T16:26:06"
+    },
+    "com.github.fisadev.ulauncher-better-file-browser": {
+        "id": "com.github.fisadev.ulauncher-better-file-browser",
+        "url": "https://github.com/fisadev/ulauncher-better-file-browser",
+        "updated_at": "2019-09-24T13:12:05.079093",
+        "last_commit": "8ec8a0dda09e172de62051cd1f251816ce4af368",
+        "last_commit_time": "2019-09-06T19:20:09"
+    },
+    "com.github.zensoup.ulauncher-unicode": {
+        "id": "com.github.zensoup.ulauncher-unicode",
+        "url": "https://github.com/zensoup/ulauncher-unicode",
+        "updated_at": "2019-09-24T13:12:06.587463",
+        "last_commit": "0ad36c00a888e687b4bfbf76f266f1000040b337",
+        "last_commit_time": "2019-07-11T06:53:31"
+    },
+    "com.github.brpaz.ulauncher-gitlab": {
+        "id": "com.github.brpaz.ulauncher-gitlab",
+        "url": "https://github.com/brpaz/ulauncher-gitlab",
+        "updated_at": "2019-09-24T13:12:11.240596",
+        "last_commit": "9785fb88baccdec971afa4c83b5e5b2891c2750b",
+        "last_commit_time": "2019-07-21T16:35:21"
+    },
+    "com.github.brpaz.ulauncher-trello": {
+        "id": "com.github.brpaz.ulauncher-trello",
+        "url": "https://github.com/brpaz/ulauncher-trello",
+        "updated_at": "2019-09-24T13:12:14.024706",
+        "last_commit": "0b30a3e5a53aa0671fe5dca7997bce58c7d0c22f",
+        "last_commit_time": "2019-07-28T13:51:28"
+    },
+    "com.github.noam09.ulauncher-units": {
+        "id": "com.github.noam09.ulauncher-units",
+        "url": "https://github.com/noam09/ulauncher-units",
+        "updated_at": "2019-09-24T13:12:15.752387",
+        "last_commit": "e842dd9cb9f00fcc63096cf639a9dbcc727ef400",
+        "last_commit_time": "2019-05-21T12:01:13"
+    },
+    "com.github.kbialek.ulauncher-bitwarden": {
+        "id": "com.github.kbialek.ulauncher-bitwarden",
+        "url": "https://github.com/kbialek/ulauncher-bitwarden",
+        "updated_at": "2019-10-18T02:05:52.561307",
+        "last_commit": "a62278e41c349c0017402466d302259aba023845",
+        "last_commit_time": "2019-10-15T21:23:37"
+    },
+    "com.github.r-bower.chrome-bookmarks": {
+        "id": "com.github.r-bower.chrome-bookmarks",
+        "url": "https://github.com/R-Bower/chrome-bookmarks",
+        "updated_at": "2019-10-18T02:13:29.832563",
+        "last_commit": "aa3dbbf50500eefab61f19d697977f6ec51f9827",
+        "last_commit_time": "2019-10-04T22:52:00"
+    },
+    "com.github.luispabon.ulauncher-virtualbox": {
+        "id": "com.github.luispabon.ulauncher-virtualbox",
+        "url": "https://github.com/luispabon/ulauncher-virtualbox",
+        "updated_at": "2019-10-18T02:14:07.394735",
+        "last_commit": "940f775b4893670b95a94d78b0d1394e763642e8",
+        "last_commit_time": "2019-09-24T18:46:46"
+    },
+    "com.github.iboyperson.ulauncher-system": {
+        "id": "com.github.iboyperson.ulauncher-system",
+        "url": "https://github.com/iboyperson/ulauncher-system",
+        "updated_at": "2019-10-18T02:14:57.703708",
+        "last_commit": "34a4776fcdf8be9b22d524b98631298efe668fb9",
+        "last_commit_time": "2019-09-17T20:03:39"
+    }
+}
