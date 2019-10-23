@@ -258,6 +258,7 @@ bindsym XF86AudioMute exec notify-send Master\ volume: $(amixer -q set Master to
 
 # Custom keybinds
 bindsym $mod+x exec swaylock --image Pictures/Backgrounds/orange_grey.png --effect-vignette 0.5:0.5 --clock --indicator --line-color ff6703 --ring-color ff6703 --key-hl-color 333333
-bindsym $mod+Print exec grim -g "$(slurp)" /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_grim.png') 
+bindsym $mod+shift+Print exec grim -g "$(slurp)" /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_area.png') 
+bindsym Print exec grim /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_screenshot.png') 
 
 include /etc/sway/config.d/*
