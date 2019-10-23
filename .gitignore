@@ -1,2 +1,5 @@
-.config/ulauncher/ext_preferences/
+*
+!.config/
+!.icons/
+!.themes/
 
