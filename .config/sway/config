@@ -257,7 +257,7 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 2%- unmute && amixer sget
 bindsym XF86AudioMute exec notify-send Master\ volume: $(amixer -q set Master toggle && amixer sget Master | grep 'Right:' | awk -F'[][]' '{ print substr($4, 0, length($2)) }')
 
 # Custom keybinds
-bindsym $mod+x exec swaylock --image Pictures/Backgrounds/orange_grey.png --effect-vignette 0.5:0.5 --clock --indicator --line-color ff6703 --ring-color ff6703 --key-hl-color 333333
+bindsym $mod+x exec grim /tmp/screenshot.png && swaylock
 bindsym $mod+shift+Print exec grim -g "$(slurp)" /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_area.png') 
 bindsym Print exec grim /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_screenshot.png') 
 
