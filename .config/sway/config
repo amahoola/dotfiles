@@ -35,11 +35,11 @@ output * bg /home/sergi/Pictures/Backgrounds/orange_grey.png fill
 #
 # Example configuration:
 #
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * dpms off"' \
-#               resume 'swaymsg "output * dpms on"' \
-#          before-sleep 'swaylock -f -c 000000'
+exec swayidle -w \
+         timeout 300 '$lockscreen' \
+         timeout 600 'swaymsg "output * dpms off"' \
+              resume 'swaymsg "output * dpms on"' \
+         before-sleep '$lockscreen'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -236,6 +236,9 @@ client.placeholder      #666666 #666666 #ffffff #666666   #666666
 
 client.background       #ffffff
 
+# Custom variables
+set $lockscreen grim /tmp/screenshot.png && swaylock -f
+
 # Gaps and border setting
 default_border pixel 3
 gaps outer 10
@@ -257,7 +260,7 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 2%- unmute && amixer sget
 bindsym XF86AudioMute exec notify-send Master\ volume: $(amixer -q set Master toggle && amixer sget Master | grep 'Right:' | awk -F'[][]' '{ print substr($4, 0, length($2)) }')
 
 # Custom keybinds
-bindsym $mod+x exec grim /tmp/screenshot.png && swaylock
+bindsym $mod+x exec $lockscreen
 bindsym $mod+shift+Print exec grim -g "$(slurp)" /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_area.png') 
 bindsym Print exec grim /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_screenshot.png') 
 
