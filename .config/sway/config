@@ -83,7 +83,7 @@ exec swayidle -w \
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+    #bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -263,5 +263,7 @@ bindsym XF86AudioMute exec notify-send Master\ volume: $(amixer -q set Master to
 bindsym $mod+x exec $lockscreen
 bindsym $mod+shift+Print exec grim -g "$(slurp)" /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_area.png') 
 bindsym Print exec grim /home/sergi/Pictures/$(date +'%Y-%m-%d-%H%M%S_screenshot.png') 
+bindsym $mod+shift+e exec swaynag --background 333333 --border 666666 --button-background 333333 --border-bottom ff6703 --text ffffff -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+bindsym $mod+shift+s exec swaynag --background 333333 --border ff6703 --button-background 333333 --border-bottom ff6703 --text ffffff -m 'You pressed the shutdown shortcut. Do you really want to shutdown this computer? All unsaved data will be lost' -b 'Yes, shutdown' 'shutdown -h now'
 
 include /etc/sway/config.d/*
