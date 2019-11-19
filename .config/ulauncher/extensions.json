@@ -48,13 +48,6 @@
         "last_commit": "19d6759b47f35e9c7a050bddc56c2cac5f590f50",
         "last_commit_time": "2019-06-22T16:26:06"
     },
-    "com.github.fisadev.ulauncher-better-file-browser": {
-        "id": "com.github.fisadev.ulauncher-better-file-browser",
-        "url": "https://github.com/fisadev/ulauncher-better-file-browser",
-        "updated_at": "2019-09-24T13:12:05.079093",
-        "last_commit": "8ec8a0dda09e172de62051cd1f251816ce4af368",
-        "last_commit_time": "2019-09-06T19:20:09"
-    },
     "com.github.zensoup.ulauncher-unicode": {
         "id": "com.github.zensoup.ulauncher-unicode",
         "url": "https://github.com/zensoup/ulauncher-unicode",
